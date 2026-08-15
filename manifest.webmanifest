@@ -1,0 +1,18 @@
+{
+  "name": "MoviePro — Premium Cinematic Booking",
+  "short_name": "MoviePro",
+  "description": "A luxury cinematic movie booking experience with member profiles, smart seat reservation, cart, checkout, loyalty rewards and QR tickets.",
+  "start_url": "./index.php",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#030304",
+  "theme_color": "#050506",
+  "icons": [
+    {"src": "images/header/logo.png", "sizes": "any", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Browse Movies", "url": "./movies.php"},
+    {"name": "My Profile", "url": "./profile.php"},
+    {"name": "My Bookings", "url": "./my_bookings.php"}
+  ]
+}

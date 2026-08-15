@@ -1,0 +1,28 @@
+MOVIEPRO PHP + MYSQL — FRESH XAMPP INSTALLATION
+
+1. Back up any existing moviepro_db database.
+2. Extract this folder into C:\xampp\htdocs\
+3. Start Apache and MySQL.
+4. Open http://localhost/phpmyadmin
+5. Click Import.
+6. Import database/00_FRESH_INSTALL_FROM_SCRATCH.sql
+7. Do NOT import any other SQL file for a fresh setup.
+8. Open http://localhost/MoviePro_PHP_MySQL_Complete/
+9. Login with the admin account below. You will be redirected to:
+   http://localhost/MoviePro_PHP_MySQL_Complete/admin/index.php
+
+ADMIN
+admin@moviepro.com
+password
+
+CUSTOMER
+user@moviepro.com
+user123
+
+EXISTING ADVANCED DATABASE
+Import only database/upgrade_profile_system.sql after backing up the database.
+
+IMPORTANT
+- The customer website, booking flow and admin panel all read/write MySQL data.
+- Movie CRUD is available at admin/movies.php.
+- Do not import both fresh-install SQL files; use 00_FRESH_INSTALL_FROM_SCRATCH.sql only.
